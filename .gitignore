@@ -1,0 +1,9 @@
+qa_test.json
+*.mp4
+*.mp3
+*.wav
+*.vtt
+*.jpg
+*.pyc
+delete*
+*.pyc

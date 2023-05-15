@@ -1,0 +1,19 @@
+program: chatgpt_baseline.py # TODO: change name of program
+method: grid
+parameters:
+  transcript_path:
+      value: /work/yinghork/Alex_challenge/baselines/transcript
+  dataset_path:
+      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings/four_class_mixed/qa_test.json
+  output_dir:
+      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings/four_class_mixed/chatgpt_baseline
+  transcript:
+      value: True
+  num_classes:
+      value: 4
+  seed:
+    value: 42
+  wdb_entity:
+    value: socialiq-s2023
+  _tags:
+    value: final
