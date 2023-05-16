@@ -10,12 +10,12 @@ The inaugural <b>[Social-IQ Challenge](https://cmu-multicomp-lab.github.io/socia
 If you plan to participate in the challenge, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
 
 ## Important Dates 📅
-- [x] Challenge is released 📅  May 15
-- [ ] Challenge and paper submission sites open, test set released 📅  mid-June
-- [ ] Paper submissions and final challenge submissions due 📅 July 21
-- [ ] Acceptance decisions issued 📅 August 4
-- [ ] Camera ready paper due 📅 August 11
-- [ ] ICCV workshop 📅 on October 2, 2023
+- [x] Challenge is released: <b>May 15</b>
+- [ ] Challenge and paper submission sites open, test set released: <b>mid-June</b>
+- [ ] Paper submissions and final challenge submissions due: <b>July 21</b>
+- [ ] Acceptance decisions issued: <b>August 4</b>
+- [ ] Camera ready paper due: <b>August 11</b>
+- [ ] ICCV workshop: <b>October 2</b>
 
 ## Awards 🏆 and Prizes 💰
 There will be over $1,200 in prizes. We will give the following awards and may create additional awards as well.
