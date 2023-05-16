@@ -1,8 +1,8 @@
 # The Social-IQ 2.0 Challenge
+![alt text](_assets/siq_banner_img.png)
 The Social-IQ 2.0 Challenge will be co-hosted with the Artificial Social Intelligence Workshop at ICCV '23, and will comprise a challenge with paper submissions on the Social-IQ 2.0 task. The dataset contains over 1,000 videos, annotated with over 6,000 4-class multiple choice questions. There are $1,200 in total prizes.
 
 If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
-
 ## Important Dates 📅
 - [x] Challenge is released 📅  May 15
 - [ ] Challenge and paper submission sites open, test set released 📅  mid-June
