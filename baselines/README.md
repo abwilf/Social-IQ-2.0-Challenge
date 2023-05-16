@@ -1,6 +1,8 @@
 ## How to run the baselines on any qa_test/train/val.json file: 
 
-1. Update the sweep defined in the yml file with your own file paths:
+1. You must need a ChatGPT key to use the ChatGPT baseline. Please set an environment variable CHATGPT_API=your_api_key. 
+
+2. Update the sweep defined in the yml file with your own file paths:
 
 ```
 program: chatgpt_baseline.py 
@@ -24,7 +26,7 @@ parameters:
     value: debug
 ```
 
-2. Create the sweep
+3. Create the sweep
 ```
 wandb sweep chatgpt.yml
 ```
@@ -39,4 +41,4 @@ wandb: Run sweep agent with: wandb agent socialiq-s2023/uncategorized/gjv2phc4
 
 Run the agent command in the terminal and click on the link to take you to the dashboard.
 
-3. The accuracy of the model will be printed out onto the terminal
+4. The accuracy of the model will be printed out onto the terminal
