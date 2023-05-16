@@ -1,5 +1,5 @@
 <!-- # The Social-IQ 2.0 Challenge -->
-![alt text](_assets/siq_banner.png)
+![alt text](_assets/siq_banner2.jpg)
 <p align="center">
 <em>Sample questions from the Social-IQ 2.0 VideoQA task.</em>
 </p>
