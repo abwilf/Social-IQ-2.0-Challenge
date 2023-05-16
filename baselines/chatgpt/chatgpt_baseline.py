@@ -14,7 +14,7 @@ import time
 from joblib import Parallel, delayed
 
 API_KEY = os.getenv('CHATGPT_API')
-NUM_RETRIES = 5
+NUM_RETRIES = 10
 
 def compute_correctness(df):
     correct = 0
@@ -38,7 +38,7 @@ def chatGPT(m):
             )
             return res.choices[0].message.content
         except Exception as e:
-            time.sleep(30)
+            time.sleep(60)
             res=None
             print("Error:", e)
 
@@ -87,6 +87,7 @@ def main():
         ('--transcript_path', str, ''),
         ('--num_classes', int, 2),
         ('--transcript', bool, True),
+        ('--cache_dir', str, ''),
         ('--dataset_path', str, ''),
         ('--output_dir', str, ''),
     ]
@@ -125,7 +126,7 @@ def main():
     print(accuracy)
     
     if 'debug' not in args._tags:
-        wandb.log({'train_loss': 0.1})
+        wandb.log({'train_accuracy': accuracy})
 
 
 if __name__=='__main__':

@@ -88,7 +88,7 @@ def main():
         ('--transcript', bool, True),
         ('--cache_dir', str, ''),
         ('--dataset_path', str, ''),
-        ('--output_dir', str, ''),
+        ('--output_path', str, ''),
     ]
     
     parser = None
@@ -118,8 +118,8 @@ def main():
     
     # Updating the dataset
     matched_df["result"] = results
-    os.makedirs(args.output_dir, exist_ok=True)
-    matched_df.to_json(os.path.join(args.output_dir, 'qa_flant5xl.json'),orient='records',lines=True)
+    os.makedirs(args.output_path, exist_ok=True)
+    matched_df.to_json(os.path.join(args.output_path, 'qa_flant5xl.json'),orient='records',lines=True)
     
     
     # Compute correctness
@@ -128,7 +128,7 @@ def main():
     
     
     if 'debug' not in args._tags:
-        wandb.log({'train_loss': 0.1})
+        wandb.log({'train_accuracy': accuracy})
 
     
 

@@ -1,19 +1,21 @@
-program: chatgpt_baseline.py # TODO: change name of program
+program: chatgpt_baseline.py 
 method: grid
 parameters:
   transcript_path:
-      value: /work/yinghork/Alex_challenge/baselines/transcript
+      value: /work/yinghork/Alex_challenge/baselines/transcript # TODO: update with the path to the video transcripts
   dataset_path:
-      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings/four_class_mixed/qa_test.json
+      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings_dropped_incoherent/qa_test.json # TODO: update with the path of the input json file
   output_dir:
-      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings/four_class_mixed/chatgpt_baseline
+      value: /work/yinghork/Alex_challenge/socialiq_data/final_matchings_dropped_incoherent/chatgpt_baseline # TODO: update with the directory of where output json file will be
   transcript:
-      value: True
+      value: True # TODO: update with whether we are using transcripts or not (video text context or no context)
   num_classes:
-      value: 4
+      value: 4 # TODO: update with the number of classes (number of answers for each question) 
   seed:
     value: 42
+  wdb_project:
+    value: socialiq
   wdb_entity:
-    value: socialiq-s2023
+    value: claire-s2023 # TODO: update with the name of your project
   _tags:
-    value: final
+    value: final 
