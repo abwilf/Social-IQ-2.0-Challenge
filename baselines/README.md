@@ -42,3 +42,6 @@ wandb: Run sweep agent with: wandb agent socialiq-s2023/uncategorized/gjv2phc4
 Run the agent command in the terminal and click on the link to take you to the dashboard.
 
 4. The accuracy of the model will be printed out onto the terminal
+
+## MERLOT Baseline
+See MERLOT repo at https://github.com/sherylm77/merlot_reserve/tree/main for instructions.
