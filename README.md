@@ -5,7 +5,7 @@
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-The inaugural <b>[Social-IQ Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/)</b> will be co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com). This challenge welcomes paper submissions on the new Social-IQ 2.0 task, focused on multimodal VideoQA in socially-rich situations (1000+ videos, 6000+ questions, 24,0000+ answers). There are $1,200 in total prizes for challenge participants.
+The inaugural <b>[Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/)</b> will be co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com). This challenge welcomes paper submissions on the new Social-IQ 2.0 task, focused on multimodal VideoQA in socially-rich situations (1,000+ videos, 6,000+ questions, 24,000+ answers). There are $1,200 in total prizes for challenge participants.
 
 If you plan to participate in the challenge, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
 
