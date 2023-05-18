@@ -29,7 +29,7 @@ In order to encourage diverse, innovative approaches addressing the Social-IQ 2.
 ### Few-Shot Focus 🎯
 This focus is intended to encourage research into composing foundation models in a zero- or few-shot way, motivated by works such as [Socratic Models](https://socraticmodels.github.io/). As foundation models improve, we believe this is a very interesting area of research to explore in challenging domains such as artificial social intelligence. This focus is intended to be accessible to anyone with the ability to compose models zero-shot. It is ok to use API-accessed models such as ChatGPT and Bard.
 
-We encourage participants under this focus to compose models zero- or few-shot, and **expect that you will not perform any training** on Social-IQ 2.0 data.
+Papers in this research focus should either use **none** of the training samples from Social-IQ 2.0 dataset (zero-shot learning) or **very few** of them, usually below 10 samples (few-shot learning).
 
 ### Fusion and Reasoning Focus 🧠
 In this focus, we hope to foster approaches that make creative use of pretrained feature representations with relatively small amounts of training on top (e.g. a few hours on a single GPU).  The goal here is to encourage researchers to *combine* features that may not be immediately composable zero shot (e.g. latent vector representations instead of text). We encourage you to think about *which features you can extract* and *how you can fuse or reason over those features* cleverly, using relatively small amounts of training / fusion layers to combine feature representations.
