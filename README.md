@@ -11,7 +11,7 @@ The <b>[Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2
 
 ## Important Dates 📅
 - [x] Challenge is released: <b>May 15</b>
-- [ ] Challenge and paper submission sites open, test set released: ~~mid-June~~ **early-July**
+- [x] Challenge and paper submission sites open, test set released: ~~mid-June~~ **early-July**
 - [ ] Paper submissions and final challenge submissions due: <b>July 21</b>
 - [ ] Acceptance decisions issued: <b>August 4</b>
 - [ ] Camera ready paper due: <b>August 11</b>
@@ -39,14 +39,21 @@ Papers in this category should not try to fine-tune the pretrained models used f
 ### Representation Learning Focus 🎛️
 We added this third category to acknowledge all the impactful research happening in multimodal representation learning. We acknowledge that not all researchers will have the computation power to train or fine-tune these large models, and this is why no direct award will be given to this category, beyond the Challenge Winner award. But we still believe that it is important to mention this research category. For this category, you may use as much compute as you would like, provided (as with all challenge submissions) that you only use data in the Social-IQ 2.0 dataset release for your training. Please reach out to us if you intend to use specialized hardware such as TPU’s, so we can ensure your code is reproducible. If you would like to use TPU’s, we recommend applying for [this program from Google](https://sites.research.google/trc/about/); their generous support allowed us to run the MERLOT-Reserve baselines for this challenge. You may decide to explore self-supervised setting (where the labels are not used during the representation learning phase) or directly train your representation model in a supervised setting such as MERLOT’s finetuning results.
 
+## Paper Submissions 📤
+For submissions to be considered for the Social-IQ 2.0 challenge, teams are required to submit a research paper describing the approach in detail and share a link to their github repository. This github link will enable the review committee to ensure that results are genuine and reproducible. During paper submission, please specify the research focus (out of the three categories previously mentioned) you would like your paper to be considered for. Please format your papers according to [ICCV's submission guidelines](https://iccv2023.thecvf.com/submission.guidelines-361600-2-20-16.php). Papers can be up to 6 pages (with no cap on additional pages for references and appendices). You can submit through CMT at the link below:
+
+[**Paper and Challenge Submission Link**](https://cmt3.research.microsoft.com/asisiqiccv2023)
 
 ## Challenge Submissions 🏔️
-It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams can submit their results from the held-out test set (released at a later date) using the online submission site. You can only submit five times, so use your submissions wisely! Performance on the test set will be used to decide the Challenge Winner.
+It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams will submit their predictions on the test set (`siq2/qa/qa_test.json`) along with their paper pdf using the online submission site linked above. Performance on the test set will be used to decide the Challenge Winner. The publicly shared `qa_test.json` file is a superset of the test set that will be used for scoring.
+
+The `qa_test.json` file does not have labels, so please indicate your method's predicted labels by adding a field "answer_idx" with an index between 0 and 3 for each question.
+
+In essence, the current qa_test.json contains the following fields: [qid, q, vid_name, ts, a0, a1, a2, a3]. Your qa_test.json will contain: [qid, q, vid_name, ts, a0, a1, a2, a3, **answer_idx**], where answer_idx indicates which index your model believes is the answer for this question.
+
+**Please do not alter the other field names, or include any other fields in your submission**.
 
 IMPORTANT: Please do not perform additional training or adaptation on the test set. The training should be oly happening on the training set of the Social-IQ 2.0 dataset.
-
-## Paper Submissions 📤
-For your submission to be considered in the Social-IQ 2.0 challenge, teams are required to submit a research paper describing the approach in details and share a link to their github repository. This github link with enable the review committee to ensure that results are genuine and reproducible. During your paper submission, please specific the research focus (out of the three categories previously mentions) you would like your paper to be considered for. Please format your papers according to [ICCV's submission guidelines](https://iccv2023.thecvf.com/submission.guidelines-361600-2-20-16.php). Papers can be up to 6 pages (with no cap on additional pages for references and appendices).
 
 ## Review Criteria 🎉
 The following four criteria will be taken into consideration during the review process:
