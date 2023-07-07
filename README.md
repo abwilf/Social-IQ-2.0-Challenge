@@ -45,7 +45,7 @@ For submissions to be considered for the Social-IQ 2.0 challenge, teams are requ
 [**Paper and Challenge Submission Link**](https://cmt3.research.microsoft.com/asisiqiccv2023)
 
 ## Challenge Submissions 🏔️
-It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams will submit their predictions on the test set (`siq2/qa/qa_test.json`) along with their paper pdf using the online submission site linked above. Performance on the test set will be used to decide the Challenge Winner. The publicly shared `qa_test.json` file is a superset of the test set that will be used for scoring.
+It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams will submit their predictions on the test set (`siq2/qa/qa_test.json`) along with their paper pdf using the online submission site linked above. Performance on the test set will be used to decide the Challenge Winner. The `qa_test.json` file in this repository is a superset of the test set that will be used for scoring.
 
 The `qa_test.json` file does not have labels, so please indicate your method's predicted labels by adding a field "answer_idx" with an index between 0 and 3 for each question.
 
