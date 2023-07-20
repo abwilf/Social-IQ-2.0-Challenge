@@ -12,7 +12,7 @@ The <b>[Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2
 ## Important Dates 📅
 - [x] Challenge is released: <b>May 15</b>
 - [x] Challenge and paper submission sites open, test set released: ~~mid-June~~ **early-July**
-- [ ] Paper submissions and final challenge submissions due: <b>July 21</b>
+- [ ] Paper submissions and final challenge submissions due to the [submission site](https://cmt3.research.microsoft.com/asisiqiccv2023): ~~July 21~~ **July 24**
 - [ ] Acceptance decisions issued: <b>August 4</b>
 - [ ] Camera ready paper due: <b>August 11</b>
 - [ ] ICCV workshop: <b>October 2</b>
