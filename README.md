@@ -101,6 +101,20 @@ This will update `siq2/current_split.json`, which will describe the videos in th
 
 **A finer point about the dataset**: Because you will download videos from youtube directly, the set of videos that constitute the dataset may change slightly between the release and conclusion of the challenge. **We will treat the "final" dataset as the set of videos downloaded from youtube one week before the challenge concludes**. If you download the dataset now and report your results later, that is ok – we will simply discard predictions made on test set videos that are no longer available when we determine final testing accuracies, and you will not be penalized for training or validating on videos that are no longer available by the end of the challenge.
 
+## Citation
+Please cite this repo if you use the Social-IQ 2.0 challenge data in your research.
+
+```
+@misc{siq2,
+  author = {Alex Wilf and Leena Mathur and Sheryl Mathew and Claire Ko and Youssouf Kebe and Paul Pu Liang and Louis-Philippe Morency},
+  title = {Social-IQ 2.0 Challenge: Benchmarking Multimodal Social Understanding},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/abwilf/Social-IQ-2.0-Challenge}},
+}
+```
+
 ## Questions
 If you have any questions, please open a Github issue on this repository or email awilf@cs.cmu.edu
 
